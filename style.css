@@ -22,6 +22,7 @@ body{
     -o-border-radius: 5px;
     display: flex;
     align-items: center;
+    
 }
 .input-box input{
     width: 100%;
@@ -35,4 +36,13 @@ body{
 .input-box img{
     width: 30px;
     cursor: pointer;
+}
+footer{
+    position: relative;
+}
+footer p{
+    position: absolute;
+    bottom: -110px;
+    color: #fff;
+    left: 32%;
 }
